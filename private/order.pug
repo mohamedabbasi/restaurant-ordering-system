@@ -1,0 +1,23 @@
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title Order Form
+		style
+			include ./order.css
+		body(onload="init()")
+			include ./header.pug
+			br
+			br
+			h1 RESTAURANTS
+			select#restaurant-select
+			br
+			br
+			#info
+			#main
+				#left.column.left
+				#middle.column.middle
+				#right.column.right
+			script(src="../public/orderform.js")
+			br
+			br
+			include ../views/partials/footer

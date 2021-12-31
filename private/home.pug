@@ -1,0 +1,16 @@
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		title User Home Page
+		style
+			include ./home.css
+		body
+			include ./header.pug
+			div#main
+				br
+				h1 Restaurant Ordering System
+				h2 Welcome to Our Store #{user}!
+				img(src="restaurant.jpg" alt="Restaurant")
+				// Credits: https://www.pexels.com/id-id/foto/meja-kayu-coklat-persegi-panjang-2291599/ by Naim Benjelloun
+				br
+			include ../views/partials/footer

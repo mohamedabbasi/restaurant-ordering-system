@@ -1,0 +1,40 @@
+h1 {
+    font-family: "DM Sans", sans-serif;
+	color: #333333;
+    font-size: 40px;
+    margin-top: 0.45cm;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    font-size: 28px;
+    color: #333333;
+    font-weight: 300;
+}
+
+a {
+    font-family: "DM Sans", sans-serif;
+    padding: 60px;
+    text-align: left;
+    font-size: 18px;
+}
+
+body {
+    padding: 2em 0;
+    text-align: center;
+    background: rgb(205,147,138);
+    /* Credits to https://cssgradient.io */
+    background: radial-gradient(circle, rgba(205,147,138,1) 0%, rgba(148,187,233,1) 100%);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+img {
+    border-radius: 6px;
+    max-width: 70%;
+    height: auto;
+    opacity: 0.9;
+}
