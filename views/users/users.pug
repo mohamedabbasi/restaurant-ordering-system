@@ -1,0 +1,17 @@
+head
+    meta(charset="UTF-8")
+    title Users Page
+    style
+        include ../../public/register.css
+body
+    if loggedin
+        include ../../private/header.pug
+    else
+        include ../partials/header.pug
+    div#users
+        br
+        h1 List of Active Users:
+        each user in users
+            a(href="/users/" + user._id) #{user.username}
+            br
+            br
