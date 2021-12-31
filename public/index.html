@@ -1,0 +1,39 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Restaurant Home Page</title>
+		<link rel="stylesheet", href="./index.css"/>
+		<body>			
+			<div id="header">
+				<a class="home" href="/">Home</a>
+				<a class="users" href="/users">Users</a>
+				<a class="stats" href="/register">Register</a>
+			</div><br/>
+			
+			<div id="main">
+				<h1>Restaurant Ordering System</h1><br>
+				<img src="restaurant.jpg" alt="Restaurant" align="right"/><br>
+
+				<!-- Credits: https://www.pexels.com/id-id/foto/meja-kayu-coklat-persegi-panjang-2291599/ by Naim Benjelloun -->
+
+				<h2>Welcome To Our Restaurant Home Page!</h2>
+				<h5>Designed using Javascript, HTML/CSS, RESTful API, MongoDB & Mongoose, Express.js and Pug!</h5>
+				<div class="container">
+                <div id="loginbox">
+                    <form id="login" method="post" action="/login">
+						<br>
+                        <h3>Login To Your Account</h3><br>
+                        <input class="input pass" name="username" type="text" placeholder="Username" pattern="^[\w]{3,16}$" autofocus="autofocus" required/>
+                        <input class="input pass" name="password" type="password" placeholder="Password" required/><br><br>
+                        <button type="submit">Login</button><br>
+                    </form>
+                </div>
+            </div>
+			</div>
+				<script src="./orderform.js"></script>
+			<div id="footer">
+				<br><p>&copy; Project by Mohamed Abbasi</p>
+			</div>
+		</body>
+  	</head>
+</html>

@@ -1,0 +1,24 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+        <title>Register Page</title>
+        <link rel="stylesheet", href="./register.css">
+        <body>
+			<div id="header">
+				<a class="home" href="/">Home</a>
+                <a class="users" href="/users">Users</a>
+				<a class="stats" href="/register">Register</a>
+			</div><br/>
+            <div class="container">
+                <div id="registerbox">
+                    <form id="register" method="post" action="/register"><br><br>
+                        <h1>Create A New Account</h1><br>
+                        <input class="input pass" name="username" type="text" placeholder="Username" pattern="^[\w]{3,16}$" autofocus="autofocus" required="required"/>
+                        <input class="input pass" name="password" type="password" placeholder="Password" required/><br><br>
+                        <input class="inputButton" type="submit" value="  Register!  "/>
+                    </form>
+                </div>
+            </div>
+        </body>
+    </head>
+</html>
