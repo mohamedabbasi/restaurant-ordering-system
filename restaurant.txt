@@ -1,0 +1,265 @@
+{
+    "Italian Pizza": {
+        "id": 0,
+        "name": "La Pizzeria",
+        "min_order": 20,
+        "delivery_fee": 5,
+        "menu": {
+            "Appetizers": {
+                "0": {
+                    "name": "Mozzarella Sticks",
+                    "description": "They’re gooey, they’re cheesy, and they never ever fail",
+                    "price": 5.5
+                },
+                "1": {
+                    "name": "Fried Calamari",
+                    "description": "When fried to golden perfection, these rings and tentacles are shockingly addictive",
+                    "price": 4
+                },
+                "2": {
+                    "name": "Buffalo Wings",
+                    "description": "Blue cheese and ranch are both excellent options for buffalo wings",
+                    "price": 7.5
+                },
+                "3": {
+                    "name": "Balsamic Salad",
+                    "description": "Crisp lettuce, crunchy cucumbers with balsamic dressing",
+                    "price": 2.5
+                },
+                "4": {
+                    "name": "Stuffed Mushrooms",
+                    "description": "Mushrooms always tend to be a bit polarizing",
+                    "price": 8.5
+                }
+            },
+            "Combos": {
+                "5": {
+                    "name": "BBQ Chicken",
+                    "description": "Instead of mozzarella cheese, you can use cheddar cheese",
+                    "price": 15.99
+                },
+                "6": {
+                    "name": "Feta Cheese With Sundried Tomatoes, Spinach, and Black Olives",
+                    "description": "If you want something different than red sauce and mozzarella cheese, you can change up the sauce",
+                    "price": 18.99
+                },
+                "7": {
+                    "name": "Garlic butter prawns and chilli",
+                    "description": "Topped with garlic prawns & finished with a drizzle of garlic butter",
+                    "price": 25.75
+                },
+                "8": {
+                    "name": "Classic Meat or Veggie Pizza",
+                    "description": "You can order a classic pizza meat combo of red sauce, mozzarella cheese",
+                    "price": 13.33
+                },
+                "10": {
+                    "name": "Pesto, fresh or sun-dried tomato, mozzarella",
+                    "description": "Get it while supplies last",
+                    "price": 17.5
+                },
+                "11": {
+                    "name": "Spinach, feta, mushroom, sausage",
+                    "description": "Best with a white sauce instead of the traditional marinara",
+                    "price": 15.99
+                }
+            },
+            "Drinks": {
+                "12": {
+                    "name": "Lemonade",
+                    "description": "A great lemonade experience is with a tall glass with plenty of ice",
+                    "price": 4.99
+                },
+                "13": {
+                    "name": "Iced Tea",
+                    "description": "A cold glass of iced tea is best on hot summer days when enjoying pizza",
+                    "price": 5.99
+                },
+                "14": {
+                    "name": "All types of Soda",
+                    "description": "Pepsi, Coca-Cola, Sprite, Fanta",
+                    "price": 2.99
+                }
+            }
+        }
+    },
+    "Buffet": {
+        "id": 2,
+        "name": "Breakfast Buffet",
+        "min_order": 35,
+        "delivery_fee": 6,
+        "menu": {
+            "Breakfast": {
+                "0": {
+                    "name": "Scrambled Eggs With Smoked Wild Salmon",
+                    "description": "Srambled egg recipe using smoked wild salmon",
+                    "price": 9
+                },
+                "1": {
+                    "name": "Bacon, Spinach and Swiss Cheese Omelet",
+                    "description": "The combination of ingredients in this Bacon-Spinach-Swiss Omelet is really fabulous. This egg recipe is a great way to start your day",
+                    "price": 14
+                },
+                "2": {
+                    "name": "Chicken and Mushroom Quiche",
+                    "description": "An ideal breakfast treat for people who do not care for the more traditional breakfast meats",
+                    "price": 12
+                }
+            },
+            "Second Breakfast": {
+                "3": {
+                    "name": "Wild Smoked Salmon Quiche",
+                    "description": "A Sunday special",
+                    "price": 7.5
+                },
+                "4": {
+                    "name": "Bacon and egg cups",
+                    "description": "Very portable for food on the go",
+                    "price": 8
+                },
+                "5": {
+                    "name": "Breakfast burritos",
+                    "description": "These hearty breakfast burritos will fill tummies and leave smiles on faces. Packed full of potatoes, bacon, eggs and salsa",
+                    "price": 14.99
+                }
+            },
+            "Elevenses": {
+                "6": {
+                    "name": "Spicy Spanish eggs",
+                    "description": "The humble egg has had some bad press over the years but eggs are packed full of vitamins and minerals and are a great source of protein",
+                    "price": 7.7
+                },
+                "7": {
+                    "name": "Scrambled eggs with basil, garlic and tomato",
+                    "description": "These fluffy cloud-like scrambled eggs are done Italian-style with fresh tomatoes, garlic and basil",
+                    "price": 9
+                },
+                "8": {
+                    "name": "Blueberry overnight oats",
+                    "description": "These lovely creamy blueberry overnight oats are made in less than five minutes and are popped in the fridge to enjoy the next day!",
+                    "price": 5
+                }
+            },
+            "Luncheon": {
+                "9": {
+                    "name": "Baked cinnamon apple porridge",
+                    "description": "A healthy, warming and absolutely delicious breakfast or brunch at the ready.",
+                    "price": 15.99
+                },
+                "10": {
+                    "name": "Raspberry and coconut smoothie bowl",
+                    "description": "This delicious raspberry and coconut smoothie bowl has all the fruity chill of a smoothie",
+                    "price": 7.99
+                },
+                "11": {
+                    "name": "Fish and Chips",
+                    "description": "Fish - fried. Chips - nice and crispy",
+                    "price": 5.99
+                }
+            },
+            "Afternoon Tea": {
+                "12": {
+                    "name": "Tea",
+                    "description": "Served with sugar and cream",
+                    "price": 3
+                },
+                "13": {
+                    "name": "Coffee",
+                    "description": "Served with sugar and cream",
+                    "price": 3.5
+                },
+                "14": {
+                    "name": "Cookies and Cream",
+                    "description": "A dozen cookies served with a vat of cream",
+                    "price": 15.99
+                },
+                "15": {
+                    "name": "Mixed Berry Pie",
+                    "description": "Fresh baked daily",
+                    "price": 7
+                }
+            },
+            "Dinner": {
+                "16": {
+                    "name": "Coconut oil granola",
+                    "description": "This granola - or toasted muesli - is packed with seeds, nuts and coconut and toasted with maple syrup and coconut oil",
+                    "price": 6
+                },
+                "17": {
+                    "name": "Bree and Apple",
+                    "description": "One wheel of brie with slices of apple",
+                    "price": 7.99
+                },
+                "18": {
+                    "name": "Maggot's Mushroom Mashup",
+                    "description": "It sounds disgusting, but its pretty good",
+                    "price": 6.5
+                },
+                "19": {
+                    "name": "Fresh Baked Bread",
+                    "description": "A whole loaf of the finest bread the Shire has to offer",
+                    "price": 6
+                },
+                "20": {
+                    "name": "Healthy homemade cocoa puffs",
+                    "description": "This healthy homemade cocoa puffs recipe tastes just like a crunchy chocolate milkshake",
+                    "price": 5
+                }
+            },
+            "Supper": {
+                "21": {
+                    "name": "Sausage Sandwich",
+                    "description": "Six whole sausages served on a loaf of bread. Covered in onions, mushrooms and gravy",
+                    "price": 15.99
+                },
+                "22": {
+                    "name": "Shire Supper",
+                    "description": "End the day as you started it, with a dozen flapjacks, 5 eggs, 3 sausages, 7 pieces of bacon, and a pint of ale",
+                    "price": 37.99
+                }
+            }
+        }
+    },
+    "NY Burgers": {
+        "id": 1,
+        "name": "New York Burgers",
+        "min_order": 15,
+        "delivery_fee": 3.99,
+        "menu": {
+            "Cheeseburgers": {
+                "0": {
+                    "name": "Double Cheeseburgers, Los Angeles-Style",
+                    "description": "The American classic, but get an Asian twist with toasted sesame seeds in the mayo",
+                    "price": 8
+                },
+                "1": {
+                    "name": "Cheddar-and-Onion Smashed Burgers",
+                    "description": "Inspired by the sliders at White Manna in Hackensack, New Jersey",
+                    "price": 7.5
+                },
+                "2": {
+                    "name": "Mini Burgers & Crispy Onion Rings",
+                    "description": "These little burgers are extra juicy because they’re made with a mixture of meats",
+                    "price": 4
+                }
+            },
+            "Barbecue Styled": {
+                "3": {
+                    "name": "Barbecue-Glazed Turkey Burgers",
+                    "description": "Jarred barbecue sauce adds a ton of flavor to the burgers and helps keep them from drying out",
+                    "price": 7.5
+                },
+                "4": {
+                    "name": "Double-Decker Burgers with Goat Cheese",
+                    "description": "Grilled chile relish and creamy goat cheese give a nice creamy-and-spicy contrast to this XXL hamburger",
+                    "price": 8.99
+                },
+                "5": {
+                    "name": "Buffalo Burgers with Raisin-Garlic Mayonnaise",
+                    "description": "Ground buffalo has an intense meaty but not gamy flavor",
+                    "price": 7.5
+                }
+            }
+        }
+    }
+}
