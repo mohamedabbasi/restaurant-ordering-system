@@ -1,7 +1,6 @@
 ## Program Author: 
 
     Mohamed Abbasi
-
 ## Building this Web Application improved my skills on:
 
 - Creating a REST application programming interface, primarily focusing on: 
@@ -59,10 +58,10 @@
         fee: 5,
         tax: 5,
         order: {
-            '1': 'quantity: 2, name: Buffalo Wings',
-            '2': 'quantity: 1, name: BBQ Chicken',
-            '3': 'quantity: 1, name: Spinach, feta, mushroom, sausage',
-            '4': 'quantity: 1, name: Lemonade'
+            1: 'quantity: 2, name: Buffalo Wings',
+            2: 'quantity: 1, name: BBQ Chicken',
+            3: 'quantity: 1, name: Spinach, feta, mushroom, sausage',
+            4: 'quantity: 1, name: Lemonade'
         },
     }
 ]
