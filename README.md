@@ -19,7 +19,7 @@
     MongoDB Storage:
 
         1. The USER_COLLECTION will store the 10 users initialized from database-initializer.js + all the new users registered through the register page
-        2. The Order collection will store the users order as instructed in the assignment requirements following the schema in OrderModel.js
+        2. The Order collection will store the users order following the schema in OrderModel.js
         3. users collection will contain only the new registered users which I used for reference when handling the GET /register request
         4. UserSession collection will store the session data
 
@@ -43,6 +43,7 @@
 ## Demonstration:
 
 ![Getting Started](./public/demo.png)
+![Getting Started](./public/demo2.png)
 
 ### MongoDB Storage:
 - Storing the order information:
