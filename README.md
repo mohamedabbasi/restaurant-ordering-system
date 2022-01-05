@@ -44,7 +44,7 @@
 ![Getting Started](./public/demo.png)
 ![Getting Started](./public/demo2.png)
 
-### MongoDB Storage:
+## MongoDB Storage:
 - Storing the order information:
 ```js
 [
@@ -76,5 +76,5 @@
   }
 ]
 ```
-Setup:
+## Setup:
 - run ```npm i && npm start```
